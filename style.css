@@ -33,7 +33,7 @@ li {
 #profile{
 margin: 0 auto;
 text-align:center;
-height: 450px;
+
 left: 505px;
 top: 146px;
 
@@ -46,7 +46,7 @@ img{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 90%;
+    width: 100%;
 }
 
 #tekst{
@@ -79,4 +79,3 @@ text-align: center;
     height: 63px;
 
 }
-
