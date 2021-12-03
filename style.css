@@ -34,11 +34,22 @@ h1{
     line-height: 93,75px;   
 }
 
+h2{
+    font-weight: 550;
+    font-style: normal;
+    font-size: 48px;
+    line-height: 72px;
+}
+
 h3{
     font-weight: 400;
     font-style: normal;
     font-size: 130%;
     line-height: 28,13px;
+}
+
+h4{
+    font-weight: bold;
 }
 
 .project{
@@ -60,8 +71,17 @@ hr{
 .card
 {
     margin: 0 auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .btn{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#about{
+    height: 800px;
+}
+
+#portfolio{
+    height: 800px;
 }
