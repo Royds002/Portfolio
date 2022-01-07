@@ -175,6 +175,8 @@ text-align: center;
 hr{
     color:white;
     opacity: 1;
+    margin: 0 auto;
+    width: 17%;
 }
 
 .btn{
@@ -223,4 +225,15 @@ hr{
     width: 800px;
     text-align: center;
     margin: 0 auto;
+}
+
+#contact{
+    height: 700px;
+    width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#mijn_project{
+    text-align: center;
 }
