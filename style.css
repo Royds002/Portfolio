@@ -11,6 +11,18 @@ left: 505px;
 top: 146px;
 }
 
+.navbar{
+    height: 100px;
+}
+
+.navbar-brand{
+    font-size: 140%
+}
+
+.nav-link{
+    font-size:110%;
+}
+
 #profielfoto{   
     margin: 0 auto;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -30,7 +42,6 @@ top: 146px;
   
   .image {
     margin: 0 auto;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -104,7 +115,6 @@ top: 146px;
 
 img{
     margin: 0 auto;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -142,6 +152,13 @@ h4{
     font-weight: bold;
 }
 
+h5{
+    font-weight: bold;
+    font-style: normal;
+    font-size: 170%;
+    line-height: 28,13px;
+}
+
 .project{
 Height: 500px;
 text-align: center;
@@ -149,19 +166,15 @@ text-align: center;
 
 #footer{
     color:white;
-    height: 100px;
+    height: 150px;
+    width: auto;
     Text-align: center;
+    background-color: #314a7c;
 }
 
 hr{
     color:white;
     opacity: 1;
-}
-
-.card
-{
-    margin: 0 auto;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .btn{
@@ -174,4 +187,40 @@ hr{
 
 #portfolio{
     height: 800px;
+}
+
+.fa-facebook {  
+    color: white;
+  }
+
+.fa-linkedin {
+    color: white;
+  }
+
+  .fa-instagram {
+    color: white;
+  }
+
+  .fa {
+    padding: 10px;
+    width: 70px;
+    text-align: center;
+    text-decoration: none;
+    
+  }
+
+  a:hover {
+      color:red;
+  }
+
+#weassist{
+    text-align: center;
+    height: 600px;
+}
+  
+#opdracht{
+    height:auto;
+    width: 800px;
+    text-align: center;
+    margin: 0 auto;
 }
