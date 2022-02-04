@@ -166,6 +166,14 @@ text-align: center;
 
 #footer{
     color:white;
+    height: 380px;
+    width: auto;
+    Text-align: center;
+    background-color: #314a7c;
+}
+
+#footer_2{
+    color:white;
     height: 150px;
     width: auto;
     Text-align: center;
@@ -239,8 +247,8 @@ hr{
 }
 
 #contact{
-    height: 700px;
-    width: 800px;
+    height: 260px;
+    width: 300px;
     text-align: center;
     margin: 0 auto;
 }
