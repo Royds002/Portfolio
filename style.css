@@ -11,8 +11,15 @@ left: 505px;
 top: 146px;
 }
 
+.main{
+    margin-top: 75px;
+}
+
 .navbar{
     height: 100px;
+    position: fixed;
+    top:0;
+    width: 100%;
 }
 
 .navbar-brand{
