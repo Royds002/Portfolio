@@ -39,6 +39,8 @@ top: 146px;
     width: 100%;
     height: auto;
   }
+
+
   
   .image {
     margin: 0 auto;
@@ -160,8 +162,13 @@ h5{
 }
 
 .project{
-Height: 600px;
+Height: 500px;
 text-align: center;
+}
+
+.project_2{
+    Height: 600px;
+    text-align: center;
 }
 
 #footer{
