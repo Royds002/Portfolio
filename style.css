@@ -1,5 +1,5 @@
 body{
-    background: linear-gradient(180deg, #314a7c 0%, #1D2C48 50.52%);
+    background-color:#1D2C48;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -20,6 +20,7 @@ top: 146px;
     position: fixed;
     top:0;
     width: 100%;
+    background-color:#1D2C48;
 }
 
 .navbar-brand{
@@ -40,6 +41,7 @@ top: 146px;
     width: 100%;
     height: auto;
 }
+
 
 .projecten {
     position: relative;
@@ -203,6 +205,10 @@ hr{
 
 .btn{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn-primary{
+    width: 80%;
 }
 
 #about{
