@@ -42,6 +42,15 @@ top: 146px;
     height: auto;
 }
 
+#profiel{   
+    margin: 0 auto;
+    border-radius: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+}
 
 .projecten {
     position: relative;
@@ -212,7 +221,7 @@ hr{
 }
 
 #about{
-    height: 800px;
+    height: 1500px;
 }
 
 #portfolio{
