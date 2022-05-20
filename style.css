@@ -137,10 +137,11 @@ top: 146px;
 #art_tekst{
     color: white;
     font-size: 15px;
-    margin-left: 30px;
-    text-align:left;
-    height: 200px;
+    margin: 0 auto;
+    text-align:center;
+    height: 150px;
     margin-top: 40px;
+    margin-top: 60px;
 }
 
 img{
