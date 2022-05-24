@@ -42,6 +42,17 @@ top: 146px;
     height: auto;
 }
 
+#art{   
+  margin: 0 auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: auto;
+}
+
 #profiel{   
     margin: 0 auto;
     border-radius: 30px;
@@ -137,11 +148,9 @@ top: 146px;
 #art_tekst{
     color: white;
     font-size: 15px;
+    height: 200px;
     margin: 0 auto;
-    text-align:center;
-    height: 150px;
-    margin-top: 40px;
-    margin-top: 60px;
+    text-align: center;
 }
 
 img{
@@ -232,7 +241,7 @@ hr{
 }
 
 #about{
-    height: 750px;
+    height: 720px;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
@@ -301,7 +310,7 @@ html,body{
   animation: animate 1s 1s cubic-bezier(1,0,0.5,1) forwards;
 }
 .bar .progress-line.html span{
-  width: 90%;
+  width: 80%;
 }
 .bar .progress-line.css span{
   width: 80%;
@@ -362,7 +371,7 @@ html,body{
   }
 }
 .progress-line.html span::after{
-  content: "90%";
+  content: "80%";
 }
 .progress-line.css span::after{
   content: "80%";
