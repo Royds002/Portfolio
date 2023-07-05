@@ -13,47 +13,45 @@
     <title>Portfolio Roy de Schepper</title>
   </head>
   <body>
-    <div class="container"> 
-      <nav class="navbar navbar-expand-lg navbar-dark">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="#">Roy de Schepper</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-              <div class="navbar-nav">
-                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                <a class="nav-link" href="about.html">About me</a>
-                <a class="nav-link" href="portfolio.html">Portfolio</a>
-                <a class="nav-link" href="art_stuff.html">Art stuff</a>
-              </div>
-            </div>
+    <div class="container">       
+        <header>
+          <div class="logo">
+            <a href="index.html">
+            <img src="Logo.svg" width="60px" height="40px" id=logo alt="Logo image" style="margin-left: 10px;" class="image-link"/>
+            </a>
           </div>
-        </nav>
+          <nav>
+            <ul>
+              <li><a href="about.html" class="image-link">About</a></li>
+              <li><a href="portfolio.html" class="image-link">Projecten</a></li>
+            </ul>
+          </nav>
+        </header>
 
         <div class="main">
 
-        <div class="row">
+        <div class="row">            
+            <div id="tekst" class="col-lg-6">                          
+                <h3> Hey, mijn naam is </h3>
+                <h1>Roy de Schepper</h1>
+                <h3>Ik ben een Designer die Communication en Multimedia Design studeert aan de Hogeschool Rotterdam. Ik hou er van om dingen te creëren en ervoor te zorgen dat de gebruiker blij is.</h3>
+                <br>
+                <a href="about.html" class="link-with-arrow">
+                  <h3 style="color: #1238C0;">Meer over mij</h3>
+                  <img class="arrow" id="profielfoto" src="arrow.svg" alt="profielfoto" style="width: 20%; margin-left: 15px;">
+                </a>
+            </div>   
             <div id="profile" class="col-lg-4">
               <br>
-                <img id="profielfoto" src="profielfoto.JPG" alt="profielfoto">
+                <img id="profielfoto" src="Profielfoto.png" alt="profielfoto">
             </div>
-            <div id="tekst" class="col-lg-5">
-                <br>
-                <br>              
-                <h3> Hallo, ik ben </h3>
-                <h1>Roy de Schepper</h1>
-                <h3>Student Communication and multimedia design</h3>
-                <br>
-                <a class="btn btn-danger btn-lg" href="about.html" role="button">About me</a>
-            </div>   
         </div>
 
 
         <div class="row">
           <div id="mijn_project" class="col-lg-12">
-            <h5>Mijn Projecten:</h5>
-            <hr style="height:4px;">
+            <h5>Mijn werk</h5>
+            <p>Bekijk enkele van de projecten waaraan ik heb mogen werken.</p>
             <br>
             <br>
           </div>
@@ -64,11 +62,11 @@
               <div class="projecten" >
                 <div class="image-container">
                 <a href="weassist.html"></a>
-                <img src="WeAssist.png" alt="project" class="image">
+                <img src="Filmfinder.svg" alt="project" class="image">
               </div>
                 <div class="overlay">                  
                   <div class="text">
-                    <h3 style="font-weight: bold;">WeAssist</h3>
+                    <h3 style="font-weight: bold;">FilmFinder</h3>
                     <p>CMD Schoolproject</p>  </div>
                 </div>
               </div>             
@@ -79,43 +77,44 @@
               <div class="projecten">
                 <div class="image-container">
                   <a href="smart_planter.html"></a>
-                <img src="smart_planter.png" alt="project" class="image">
+                <img src="4some.svg" alt="project" class="image">
               </div>
                 <div class="overlay">
                   <div class="text">
-                    <h3 style="font-weight: bold;">Smart Planter</h3>
-                    <p>CMD Schoolproject</p>  
+                    <h3 style="font-weight: bold;">4Some app</h3>
+                    <p>Stageopdracht W3S Digital</p>  
                   </div>
                 </div>
               </div>                 
             </div>
         </div>
+        
+        <button class="rounded-button" margin-left="1000px">Bekijk hier meer werk</button>
 
-
-        <div class="row"> 
-          <div class="container">
-            <div id="footer" class="col-12">
-              <br>
-              <div id="contact" class="col-12">
-              <h3 style="letter-spacing: 5px; font-weight:bold;">Contact</h3>
-              <hr style="height:3px; width:90px;">
-              <br>
-        <br>
-        <p style="line-height: 1.8;">Wil je meer weten over mij of mijn werk?
-        Neem dan graag contact met mij op via:
-        roydeschepper@gmail.com</p>
-        <p>Of stuur een berichtje via linkedin</p>
       </div>
-              <a href="https://www.instagram.com/royds002" class="fa fa-instagram" style="font-size:32px;" target="_blank"></a>
-                <a href="https://www.linkedin.com/in/roy-de-schepper-900766211/" class="fa fa-linkedin" style="font-size:32px;" target="_blank"></a>
-                <a href="https://www.facebook.com/roy.deschepper.9/" class="fa fa-facebook" style="font-size:32px;" target="_blank"></a>
+    </div>
+        <div class="row"> 
+          <div class="footer-container">
+          <footer>
+            
+            <div class="footer-left">
+              <img src="profielfoto rond.jpeg" alt="Profile Photo" class="profile-photo">
+              <div class="social-icons">
+                <a href="https://www.linkedin.com/in/roy-de-schepper-900766211/" class="fa fa-linkedin" style="font-size:28px;" target="_blank"></a>
+                <a href="https://www.instagram.com/royds002" class="fa fa-instagram" style="font-size:28px;" target="_blank"></a>
+              </div>
+            </div>
+            <div class="footer-right">
+              <p>Wil je meer weten over mij, mijn werk of wil je gewoon kennismaken? Stuur me dan gerust een mailtje</p>
+              <p style= "color: #1238C0;" >roydeschepper@gmail.com</p>
             </div>
           </div>
-          </div>
+          </footer>
+        </div>
+          
 
 
-          </div>
-          </div>
+          
     
 
 
