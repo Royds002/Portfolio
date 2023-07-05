@@ -77,7 +77,6 @@ nav a {
   text-decoration: none;
   color: #333;
   font-weight: bold;
-  transition: transform 0.3s ease-in-out;
 }
 
 .image-link {
@@ -270,17 +269,25 @@ footer {
   text-align:right;
   left: 505px;
   top: 146px;
-  margin-top: 20px;
+  margin-top: 100px;
   margin-left: 109px;
   }
 
   #filmen{
-    height: 500px;
+    height: 600px;
     margin-top: 70px;
 }
 
 #filmfinder-header{
     height:600px;
+}
+
+#biebclub-header{
+  height:600px;
+}
+
+#weassist-header{
+  height:600px;
 }
 
 #opdrachtbeschrijving{
@@ -299,6 +306,19 @@ footer {
 
 #onderzoek{
   height: 600px;
+}
+
+#onderzoek-biebclub{
+  height: 800px;
+}
+
+#onderzoekfoto-biebclub{
+  margin: 0 auto;
+  text-align:center;
+  left: 505px;
+  top: 146px;
+  margin-top: 120px;
+  margin-left: 0px;
 }
 
 #concept{
@@ -389,6 +409,22 @@ margin-left: 108px;
     
   }
   
+  .overlay_2 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 585px;
+    height: 386px;
+    opacity: 0;
+    transition: .3s ease;
+    background-color: #303030bd;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-top: 7px;
+    
+  }
 
   .image-container a {
     position:absolute;
@@ -480,8 +516,6 @@ hr{
 .btn-primary{
     width: 80%;
 }
-
-
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 *{
@@ -621,10 +655,6 @@ html,body{
 #portfolio{
     height: 800px;
 }
-
-
-
-
 
 #weassist{
     text-align: center;
